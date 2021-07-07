@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Groteske';
+    src: url("groteske.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Unione';
+    src: url("unione.otf") format("opentype");
+}
+
+body {
+    font-family: 'Groteske';
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+.typing-text__wrapper {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.typing-text {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.typed-cursor {
+    font-size: 16px;
+}
+
+.header-timer {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    color: white;
+    font-family: 'Unione';
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
